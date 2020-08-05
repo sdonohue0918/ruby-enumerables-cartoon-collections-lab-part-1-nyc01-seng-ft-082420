@@ -9,7 +9,7 @@ def greet_characters(array)
   #
   # Print a custom greeting for each element
 
-
+  array.each {|el| print "Hello #{el}! \n"}
 
 
 
